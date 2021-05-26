@@ -16,7 +16,6 @@ body {
 
 .home {
   height: 700px;
-  width: 100%;
 
   background-image: url("../img/beautiful-smart-business-asian-woman-smart-casual-wear-working-laptop-talking-phone-while-sitting-table-creative-office.jpg");
   background-size: cover;
@@ -30,7 +29,7 @@ body {
   color: rgba(0, 0, 0, 0.883);
 }
 .sub-heading {
-  width: 600px;
+  width: 500px;
   font-size: 22px;
   position: relative;
   top: 280px;
