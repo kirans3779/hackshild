@@ -1,0 +1,381 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.set {
+  font-size: 20px;
+  position: absolute;
+  left: 700px;
+}
+.nav-item {
+  margin: 5px;
+}
+
+.home {
+  height: 700px;
+  width: 100%;
+
+  background-image: url("../img/beautiful-smart-business-asian-woman-smart-casual-wear-working-laptop-talking-phone-while-sitting-table-creative-office.jpg");
+  background-size: cover;
+}
+.heading {
+  position: relative;
+  top: 250px;
+  left: 980px;
+  font-size: 45px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.883);
+}
+.sub-heading {
+  width: 600px;
+  font-size: 22px;
+  position: relative;
+  top: 280px;
+  left: 950px;
+  word-spacing: 1px;
+  color: rgb(37, 35, 35);
+}
+.second {
+  background-color: #e23923f1;
+  height: 500px;
+  width: 100%;
+  color: aliceblue;
+}
+.office {
+  font-size: 35px;
+  position: relative;
+  top: 100px;
+  left: 210px;
+}
+.address {
+  font-size: 30px;
+  position: relative;
+  word-spacing: 2px;
+  top: 100px;
+  left: 210px;
+}
+.map {
+  position: relative;
+  top: 20px;
+}
+/* 3rd block */
+.contact_heading {
+  font-size: 40px;
+  position: relative;
+  top: 100px;
+  left: 600px;
+}
+.contact-sub {
+  font-size: 20px;
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+.sub_2 {
+  position: relative;
+  left: 250px;
+}
+.box {
+  width: 600px;
+  position: relative;
+  left: 500px;
+  top: 200px;
+}
+label {
+  font-size: 20px;
+  color: gray;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.form-control {
+  border-radius: 20px;
+  height: 60px;
+}
+textarea {
+  border-radius: 20px;
+}
+select {
+  border-radius: 20px;
+  position: relative;
+  top: 20px;
+}
+.fa-spinner {
+  height: 50px;
+  width: 50px;
+}
+.check {
+  position: relative;
+  top: 40px;
+}
+#check {
+  position: relative;
+  top: 10px;
+  height: 40px;
+  width: 40px;
+}
+.submit {
+  width: 150px;
+  height: 60px;
+  position: relative;
+  left: 220px;
+  border-radius: 20px;
+}
+.underline {
+  height: 100px;
+  border-top: 2px solid gray;
+  position: relative;
+  top: 300px;
+  width: 70%;
+  left: 250px;
+}
+.upgrade {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.btn1 {
+  margin-right: 20px;
+}
+footer {
+  position: relative;
+  top: 400px;
+  height: 650px;
+  background-color: rgb(239, 239, 243);
+  color: gray;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* footer */
+.office_footer {
+  font-size: 30px;
+  color: gray;
+  font-weight: 500;
+}
+.download {
+  font-size: 50px;
+  position: relative;
+  top: 20px;
+  right: 10px;
+}
+.fa-google-play {
+  position: relative;
+  left: 25px;
+}
+
+.blc {
+  position: relative;
+  right: 180px;
+}
+.icon {
+  font-size: 30px;
+}
+.footer-base {
+  border-top: 2px solid gray;
+  width: 90%;
+  margin-left: 100px;
+}
+.bor {
+  height: 10px;
+
+  margin-left: 20px;
+  border-left: 2px solid gray;
+}
+
+@media only screen and (max-width: 360px) {
+  .set {
+    position: absolute;
+    left: 0px;
+  }
+
+  .home {
+    height: 700px;
+    width: 100%;
+
+    background-image: url("../img/beautiful-smart-business-asian-woman-smart-casual-wear-working-laptop-talking-phone-while-sitting-table-creative-office.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .heading {
+    position: relative;
+    top: 280px;
+    left: 20px;
+    text-shadow: darkslategrey;
+    font-size: 45px;
+    font-weight: 500;
+    color: rgba(12, 40, 85, 0.897);
+  }
+  .sub-heading {
+    width: 300px;
+    font-size: 22px;
+    position: relative;
+    top: 280px;
+    left: 30px;
+    word-spacing: 1px;
+    color: rgb(252, 252, 252);
+    text-shadow: 1px 2px gray;
+  }
+  .second {
+    background-color: #e23923f1;
+    height: 800px;
+    width: 100%;
+    color: aliceblue;
+  }
+  .office {
+    font-size: 35px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+  }
+  .address {
+    font-size: 30px;
+    position: relative;
+    word-spacing: 2px;
+    top: 100px;
+    left: 20px;
+  }
+  .map {
+    position: relative;
+    top: 50px;
+    right: 50px;
+  }
+  iframe {
+    height: 200px;
+    width: 200px;
+  }
+  .contact_heading {
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+    left: 80px;
+  }
+  .contact-sub {
+    display: none;
+  }
+  .sub_2 {
+    position: relative;
+    width: 300px;
+    left: 20px;
+    top: 20px;
+  }
+  .box {
+    width: 300px;
+    position: relative;
+    left: 20px;
+    top: 200px;
+  }
+  label {
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  .form-control {
+    border-radius: 20px;
+    height: 60px;
+  }
+  textarea {
+    border-radius: 20px;
+    width: 300px;
+  }
+  select {
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+  }
+  .fa-spinner {
+    height: 50px;
+    width: 50px;
+  }
+  .check {
+    position: relative;
+    top: 40px;
+  }
+  #check {
+    position: relative;
+    top: 10px;
+    height: 40px;
+    width: 40px;
+  }
+  .submit {
+    width: 150px;
+    height: 60px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    border-radius: 20px;
+  }
+  .underline {
+    left: 40px;
+  }
+  .upgrade {
+    position: relative;
+    top: 60px;
+    left: 50px;
+  }
+  .btn1 {
+    margin-top: 20px;
+  }
+  .btn2 {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  footer {
+    position: relative;
+    top: 400px;
+    height: 1300px;
+    background-color: rgb(239, 239, 243);
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  /* footer */
+  .office_footer {
+    font-size: 30px;
+    color: gray;
+    font-weight: 500;
+  }
+  .download {
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+  }
+  .fa-google-play {
+    position: relative;
+    left: 20px;
+  }
+
+  .blc {
+    position: relative;
+    right: 0px;
+  }
+  .icon {
+    font-size: 30px;
+  }
+  .footer_link1 {
+    margin-left: 10px;
+  }
+  .footer_link_icon {
+    margin-left: 50px;
+  }
+  .footer_link2 {
+    margin-left: 30px;
+  }
+  .footer-base {
+    border-top: 2px solid gray;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .bor {
+    height: 10px;
+    margin-left: 20px;
+    border-left: 2px solid gray;
+  }
+}
