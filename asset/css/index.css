@@ -113,9 +113,9 @@ select {
   width: 40px;
 }
 .submit {
-  width: 150px;
-  height: 60px;
-  margin-left: 300px;
+  width: 120px;
+  height: 50px;
+  margin-left: 100px;
   border-radius: 20px;
 }
 .underline {
@@ -156,6 +156,9 @@ footer {
 .fa-google-play {
   margin-left: 105px;
 }
+.footer_link1 {
+  margin-left: 10px;
+}
 
 .blc {
   position: absolute;
@@ -170,8 +173,6 @@ footer {
   margin-left: 100px;
 }
 .bor {
-  height: 10px;
-
   margin-left: 20px;
   border-left: 2px solid gray;
 }
@@ -253,10 +254,8 @@ footer {
     top: 20px;
   }
   .box {
-    width: 300px;
-    position: relative;
-    left: 20px;
-    top: 200px;
+    margin-top: 200px;
+    margin-left: 10px;
   }
   label {
     font-size: 20px;
@@ -271,7 +270,7 @@ footer {
   }
   textarea {
     border-radius: 20px;
-    width: 300px;
+    width: 200px;
   }
   select {
     border-radius: 20px;
@@ -295,18 +294,17 @@ footer {
   .submit {
     width: 150px;
     height: 60px;
-    position: relative;
-    top: 50px;
-    left: 30px;
+    margin-left: 80px;
+    margin-top: 50px;
     border-radius: 20px;
   }
   .underline {
-    left: 40px;
+    margin-top: 180px;
+    margin-left: 50px;
   }
   .upgrade {
-    position: relative;
-    top: 60px;
-    left: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
   }
   .btn1 {
     margin-top: 20px;
@@ -337,9 +335,12 @@ footer {
     top: 20px;
     left: 50px;
   }
+
   .fa-google-play {
-    position: relative;
-    left: 20px;
+    margin-left: 80px;
+  }
+  .apple {
+    margin-left: -50px;
   }
 
   .blc {
