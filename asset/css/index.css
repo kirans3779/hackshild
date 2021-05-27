@@ -70,12 +70,16 @@ body {
 }
 .contact2 {
   font-size: 20px;
-  position: relative;
-  top: 60px;
+  position: absolute;
+  top: 120px;
+  left: 350px;
+}
+.sub_2 {
+  margin-left: 200px;
 }
 .box {
-  margin-top: 100px;
-  margin-left: 450px;
+  margin-top: 200px;
+  margin-left: 500px;
 }
 label {
   font-size: 20px;
@@ -111,8 +115,7 @@ select {
 .submit {
   width: 150px;
   height: 60px;
-  position: relative;
-  left: 220px;
+  margin-left: 300px;
   border-radius: 20px;
 }
 .underline {
@@ -172,7 +175,7 @@ footer {
   border-left: 2px solid gray;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 560px) {
   .set {
     position: absolute;
     left: 0px;
