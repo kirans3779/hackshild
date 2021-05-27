@@ -15,7 +15,7 @@ body {
 }
 
 .home {
-  height: 700px;
+  height: calc(100vh - 4rem);
 
   background-image: url("../img/beautiful-smart-business-asian-woman-smart-casual-wear-working-laptop-talking-phone-while-sitting-table-creative-office.jpg");
   background-size: cover;
@@ -61,42 +61,35 @@ body {
   top: 20px;
 }
 /* 3rd block */
-.contact_heading {
-  font-size: 40px;
+.contact {
+  font-size: 30px;
+  font-weight: 500;
   position: relative;
-  top: 100px;
+  top: 50px;
   left: 600px;
 }
-.contact-sub {
+.contact2 {
   font-size: 20px;
   position: relative;
-  top: 100px;
-  left: 300px;
-}
-.sub_2 {
-  position: relative;
-  left: 250px;
+  top: 60px;
 }
 .box {
-  width: 600px;
-  position: relative;
-  left: 500px;
-  top: 200px;
+  margin-top: 100px;
+  margin-left: 450px;
 }
 label {
   font-size: 20px;
   color: gray;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 20px;
   font-weight: 500;
 }
+
 .form-control {
   border-radius: 20px;
   height: 60px;
 }
-textarea {
-  border-radius: 20px;
-}
+
 select {
   border-radius: 20px;
   position: relative;
@@ -107,12 +100,11 @@ select {
   width: 50px;
 }
 .check {
-  position: relative;
-  top: 40px;
+  margin-top: 40px;
 }
+
 #check {
-  position: relative;
-  top: 10px;
+  margin-top: 0px;
   height: 40px;
   width: 40px;
 }
@@ -126,22 +118,20 @@ select {
 .underline {
   height: 100px;
   border-top: 2px solid gray;
-  position: relative;
-  top: 300px;
+  margin-top: 100px;
+  margin-left: 250px;
   width: 70%;
   left: 250px;
 }
 .upgrade {
-  position: relative;
-  top: 50px;
-  left: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 .btn1 {
   margin-right: 20px;
 }
 footer {
-  position: relative;
-  top: 400px;
+  margin-top: 400px;
   height: 650px;
   background-color: rgb(239, 239, 243);
   color: gray;
@@ -161,13 +151,11 @@ footer {
   right: 10px;
 }
 .fa-google-play {
-  position: relative;
-  left: 25px;
+  margin-left: 25px;
 }
 
 .blc {
-  position: relative;
-  right: 180px;
+  margin-right: 180px;
 }
 .icon {
   font-size: 30px;
@@ -245,13 +233,13 @@ footer {
     height: 200px;
     width: 200px;
   }
-  .contact_heading {
+  .contact {
     font-size: 40px;
     position: relative;
     top: 100px;
     left: 80px;
   }
-  .contact-sub {
+  .contact2 {
     display: none;
   }
   .sub_2 {
